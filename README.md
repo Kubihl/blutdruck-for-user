@@ -1,8 +1,12 @@
-# Blutdruck for User
+# Puls 180 – Das Blutdruck- & Puls-Tagebuch
 
-Aktuelle USER-App: **1.60**
+Puls 180 sammelt Blutdruck und Puls übersichtlich auf dem Android-Handy. Die App bietet Handeingabe, Health Connect, geeignete Bluetooth-Messgeräte, Sprachansage, Monatsübersichten sowie PDF-, Excel- und CSV-Export.
 
-- [USER-App 1.60 herunterladen](https://github.com/Kubihl/blutdruck-for-user/releases/latest)
-- [PC-Tagebuch 1.5 herunterladen](https://github.com/Kubihl/blutdruck-for-user/raw/main/USER-PC-Tagebuch-1.5.zip)
+## Downloads
 
-Nach gültiger Schlüsseleingabe wird die USER-App dauerhaft freigeschaltet. Das PC-Tagebuch gehört zur USER-App und ist gemeinsam mit ihr freigeschaltet.
+- [Puls 180 Version 3.0 herunterladen](https://github.com/Kubihl/blutdruck-for-user/raw/main/Puls-180-3.0.apk)
+- [PC-Tagebuch für zwei Benutzer herunterladen](https://github.com/Kubihl/blutdruck-for-user/raw/main/Puls-180-PC-Tagebuch-2-Benutzer.zip)
+
+Beim ersten Öffnen ist die App zehn Tage vollständig freigeschaltet. Danach wird für die dauerhafte Nutzung ein passender, installationsgebundener Kaufschlüssel benötigt.
+
+Puls 180 ist ein privat entwickeltes Hobbyprojekt, kein Medizinprodukt und ersetzt keine ärztliche Beratung.
