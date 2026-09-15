@@ -1,0 +1,2 @@
+# Puls 180 - gesperrte Freischaltungen
+# Nur anonyme SHA-256-Pruefcodes, keine Geraetecodes.

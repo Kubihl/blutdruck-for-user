@@ -4,12 +4,12 @@ Puls 180 sammelt Blutdruck und Puls übersichtlich auf dem Android-Handy. Die Ap
 
 ## Downloads
 
-- [Puls 180 Version 5.1 herunterladen](https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-5.1.apk)
+- [Puls 180 Version 5.3 herunterladen](https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-5.3.apk)
 - [PC-Tagebuch für zwei Benutzer herunterladen](https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-PC-Tagebuch-2-Benutzer.zip)
 
 Puls 180 unterstützt Android 10 und neuer. Health Connect steht ab Android 14 zur Verfügung; Handeingabe und geeignete Bluetooth-Messgeräte funktionieren auch auf älteren unterstützten Android-Versionen.
 
 Beim ersten Öffnen ist die App zehn Tage vollständig freigeschaltet. Danach wird für die dauerhafte Nutzung ein passender, gerätegebundener Kaufschlüssel benötigt. Neue Schlüssel können nach einer Neuinstallation auf demselben Handy erneut verwendet werden.
 
-Puls 180 ist ein privat entwickeltes Hobbyprojekt, kein Medizinprodukt und ersetzt keine ärztliche Beratung.
+Puls 180 ist ein privat entwickeltes Hobbyprojekt zur persönlichen Dokumentation. Die App misst keinen Blutdruck, stellt keine Diagnose, gibt keine Therapie- oder Medikamentenempfehlungen und ersetzt keine ärztliche Beratung.
 
