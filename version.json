@@ -1,9 +1,9 @@
 {
-  "versionCode": 55,
-  "versionName": "5.14",
-  "apkUrl": "https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-5.14.apk",
-  "publishedAt": "2026-09-26T17:00:47+02:00",
-  "pcDiaryVersionCode": 59,
-  "pcDiaryVersionName": "5.9",
-  "pcDiaryUrl": "https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-PC-Tagebuch-5.9.zip"
+  "versionCode": 56,
+  "versionName": "5.15",
+  "apkUrl": "https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-5.15.apk",
+  "publishedAt": "2026-09-26T17:20:38+02:00",
+  "pcDiaryVersionCode": 60,
+  "pcDiaryVersionName": "5.10",
+  "pcDiaryUrl": "https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-PC-Tagebuch-5.10.zip"
 }
