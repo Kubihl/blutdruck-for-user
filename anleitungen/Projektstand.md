@@ -12,3 +12,7 @@ Google: sieben bestätigte Ansichten mit erfundenen Werten und großes Motiv unt
 OLD-Archiv: 90 - OLD - Archiv\Stand vor 5.20 und 5.12 - 15.10.2026. Ältere Programme, Anleitungen, Bilder und GitHub-Dateien gesichert; Verschiebeprotokoll liegt im Archiv. Nicht gelöscht. Private Schlüssel und persönliche Messdaten nicht verändert.
 
 GitHub: Kubihl/blutdruck-for-user, Arbeitskopie 08 - Entwicklung und Versuche\GitHub-Aktuell. Aktueller Upload enthält nur die neuen Downloads, neue Werbung, aktualisierte Anleitungen, Quellcode und Tests. Git-Historie bleibt erhalten. Uploadbestätigung wird nach Abschluss ergänzt.
+
+## Abschluss bestätigt
+GitHub-Upload erfolgreich: Commit d825497 auf main in Kubihl/blutdruck-for-user. Remote-Versionen 5.20 / 5.12 geprüft. Arbeitskopie nach Commit sauber. Das geöffnete PC-Tagebuch liefert jetzt 5.12 aus (direkter Socket-Test). APK und ZIP inklusive Prüfsummen gespeichert. Kein neuer Handytest durchgeführt. Stand vollständig gespeichert.
+
