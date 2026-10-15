@@ -1,0 +1,26 @@
+Puls 180 – PC-Tagebuch 5.12
+Stand: 15.10.2026 · Passend zur Android-App 5.20
+
+1. Start und Update
+Das ZIP vollständig entpacken und Start-Web-App.cmd öffnen. Nur eine Tagebuch-Ausgabe gleichzeitig starten. Die Seite läuft lokal unter http://127.0.0.1:18775/. Bei einem Update vorher den bisherigen Tagebuchserver beenden. Den Datenordner im Windows-Benutzerprofil nicht löschen. Die Handy-App als Update installieren, nicht vorher deinstallieren.
+
+2. Vier Benutzer und Profile
+Oben den aktiven Benutzer wählen. Über Benutzer bearbeiten die vier Namen getrennt festlegen. Der PC-Name muss zum Namen im Handyexport passen. Profil neben der Benutzerauswahl klappt Größe, Gewicht, Datum und Gewichtsverlauf auf. Auf der Benutzerseite Profil öffnen, Werte ändern und Profil speichern wählen. Die Angaben gehören nur zum jeweiligen Benutzer. Frühere Gewichte bleiben im Verlauf; leere aktuelle Angaben löschen den Verlauf nicht.
+
+3. Handydatei erstellen
+Auf dem Handy zuerst die richtige Person wählen. Unter Export PC-Datei speichern (z. B. per USB) oder PC-Datei senden an … wählen. Alle Werte der Person oder markierte Werte auswählen. JSON-Datei zum PC übertragen. Die Datei enthält auch vorhandene Profilangaben. PDF, Excel und CSV sind Berichte und keine Messwertdateien für den Import.
+
+4. Import prüfen und bestätigen
+Handydatei importieren öffnen, JSON-Datei und Zielbenutzer wählen. Datei prüfen zeigt die Vorschau einschließlich Profilangaben. Erst Diese Werte übernehmen speichert die Daten. Der Name muss übereinstimmen. Vorhandene Messungen werden nicht doppelt angelegt. Ausgeblendete PC-Werte bleiben ausgeblendet, außer der Haken zum Wiederanzeigen wird ausdrücklich gesetzt. Profilangaben können auch bei bereits vorhandenen Messungen übernommen werden. Ältere Handydateien ohne Profil bleiben verwendbar; beim Import werden neuere Gewichtsangaben nicht durch ältere ersetzt.
+
+5. Dateiübergabe und getrennte Geräte
+Die Datei ist eine einmalige Übergabe. Spätere Änderungen und Löschungen am Handy erscheinen nicht automatisch am PC. Für neue Werte eine neue Datei erstellen und importieren. Manuelle PC-Profiländerungen ändern das Handyprofil nicht. Eine automatische WLAN- oder QR-Synchronisierung findet nicht statt; für die Dateiübergabe ist keine Firewallfreigabe nötig.
+
+6. Verlauf, Monate und Vergleich
+Aktualisieren lädt die gespeicherten PC-Werte. Markierte Messungen lassen sich über Auswahl bearbeiten weitergeben oder ausblenden. Im Menü können ausgeblendete Einträge wiederhergestellt werden. Kalender & Ordner ordnet Messungen nach Monat; ausgewählte Monate zeigen Übersichten. Anhänge zählen nicht als Messungen. Vergleich stellt die vier Benutzer getrennt dar.
+
+7. Berichte, Sicherung und Schutz
+Datei senden an … erstellt Berichte für selbst gewählte Ziele. Datensicherung erstellen im PC-Menü erzeugt eine eigene Sicherungsdatei. Exportdateien und Sicherungen enthalten persönliche Daten und sind nicht zusätzlich verschlüsselt. Geschützt aufbewahren. Die App-Sperre begrenzt den Zugriff. Tagebuch Version 5.12 prüft bei Internetverbindung auf Updates und überträgt dabei keine Messwerte.
+
+8. Hilfe
+Puls 180 dokumentiert Blutdruck und Puls; die App misst selbst keinen Blutdruck. Farben, Skalen und Durchschnittswerte sind keine Diagnose und ersetzen keine ärztliche Beratung. Kontakt: Kerstin Kubernat, puls180@t-online.de. Privates Hobbyprojekt; Unterstützung nach verfügbarer Zeit.

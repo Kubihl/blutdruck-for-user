@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?><resources><style name="Puls180LaunchTheme" parent="android:style/Theme.Material.Light.NoActionBar"><item name="android:windowDisablePreview">true</item><item name="android:windowBackground">#121820</item><item name="android:windowLightStatusBar">false</item><item name="android:statusBarColor">#121820</item><item name="android:navigationBarColor">#121820</item><item name="android:colorAccent">#1470DC</item></style></resources>
+

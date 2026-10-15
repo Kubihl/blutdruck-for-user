@@ -1,0 +1,25 @@
+ANLEITUNG - PULS 180
+Stand: 15.10.2026 · Android 5.20
+
+1. Start und Benutzer
+Oben stehen das Puls-180-Symbol und das Menü. Mit dem Symbol kommst du zur Hauptseite zurück. Wähle dort den aktiven Benutzer; jede Person sieht ihre eigenen Werte. Die Messliste zeigt die neuesten Werte zuerst. Ältere bereits geladene Werte findest du in der Monatsübersicht.
+
+2. Werte erfassen
+„Werte per Hand“ öffnet die Eingabe für SYS, DIA und Puls; Datum und Uhrzeit setzt die App. Eine optionale Notiz lässt sich ergänzen. „HC-Werte laden“ liest Blutdruck und Puls aus Health Connect, nachdem du beide Berechtigungen erteilt hast und die Geräte-App ihre Daten dort bereitgestellt hat. Langes Drücken auf „HC-Werte laden“ öffnet Health Connect. Ein unterstütztes Messgerät kannst du unter Menü > Messwerte & Geräte > Bluetooth-Gerät hinzufügen direkt verbinden.
+
+3. Messungen und Exporte
+Tippe eine Messung an, um Details und Aktionen zu sehen. Langes Drücken markiert sie; „Alle markieren“ wählt die sichtbaren Werte. Unter „Auswahl bearbeiten“ kannst du markierte Werte speichern, versenden, ausblenden oder als PC-Datei speichern. Die Monatsübersicht zeigt Anzahl und Durchschnitt. Über Export erstellst du PDF-, Excel- oder CSV-Berichte für Drucker, Arzt oder andere Ziele. Du bestimmst Speicherort und Empfänger.
+
+4. Werte ans PC-Tagebuch geben
+Wähle auf dem Handy zuerst die richtige Person. Unter Export wählst du „PC-Datei speichern (z. B. per USB)“ oder „PC-Datei senden an …“. Beide Wege bieten alle Werte dieser Person oder nur markierte Werte. Beim direkten Kopieren der gespeicherten JSON-Datei muss das Handy per USB mit dem PC verbunden sein. Bei „Senden an …“ wählst du eine geeignete App zur Übergabe; dafür ist kein USB-Kabel nötig. Danach muss die JSON-Datei auf dem PC verfügbar sein. Dort „Benutzer bearbeiten“ öffnen und denselben Namen wie auf dem Handy eintragen. Unter „Handydatei importieren“ die Datei und den passenden Benutzer auswählen, Vorschau prüfen und Import bestätigen. Nur das Senden auf dem Handy importiert noch nichts. Doppelte Werte werden vermieden. Ein früher im PC ausgeblendeter Wert wird nur mit dem ausdrücklichen Haken beim Import wieder angezeigt. Die Datei ist eine einmalige Übergabe: spätere Änderungen oder Löschungen auf dem Handy ändern PC-Werte nicht automatisch. QR und WLAN sind dafür nicht nötig.
+
+5. Menü, Sicherung und Freischaltung
+Unten führen die großen Kacheln zur Monatsübersicht und zu Export. Einstellungen und Datensicherung stehen im Menü oben rechts; dort findest du auch Darstellung, Skala, PIN, Updates und Freischaltung. Eine Datensicherung ist eine eigene JSON-Datei und keine Messwertdatei für den PC-Import. Beim ersten Öffnen beginnt eine vierzehntägige Testzeit. Danach kannst du mit einem passenden gerätegebundenen Kaufschlüssel dauerhaft freischalten. Beim Ablauf werden Messwerte nicht automatisch gelöscht.
+
+6. Löschen, Hilfe und Kontakt
+„Löschen“ blendet Werte in der App-Liste aus. Originalwerte in Health Connect und ältere PC-Dateien bleiben erhalten; ausgeblendete App-Werte kannst du im Menü wiederherstellen. Puls 180 dokumentiert Werte und misst keinen Blutdruck. Farben, Skalen und Durchschnitte sind keine Diagnose. Bei Beschwerden oder auffälligen Werten wende dich an medizinisches Fachpersonal. Verantwortliche: Kerstin Kubernat, puls180@t-online.de. Puls 180 ist ein privates Hobbyprojekt; Unterstützung erfolgt nach verfügbarer Zeit.
+
+
+
+7. Benutzerprofil
+Im Benutzerprofil Größe, Gewicht und Gewichtsdatum bearbeiten. Die Angaben und der Gewichtsverlauf gehören zur gewählten Person. Beim Speichern einer PC-Messwertdatei werden vorhandene Profilangaben mitgegeben. Im PC-Tagebuch 5.12 erst Datei prüfen und die Übernahme bestätigen. Dort ist das Profil auch getrennt bearbeitbar. PC-Änderungen werden nicht automatisch zum Handy übertragen.
