@@ -4,8 +4,8 @@ Puls 180 sammelt Blutdruck und Puls übersichtlich auf dem Android-Handy. Die Ap
 
 ## Downloads
 
-- [Puls 180 Version 5.15 herunterladen](https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-5.15.apk)
-- [PC-Tagebuch für vier Benutzer herunterladen](https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-PC-Tagebuch-5.10.zip)
+- [Puls 180 Version 5.19 herunterladen](https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-5.19.apk)
+- [PC-Tagebuch für vier Benutzer herunterladen](https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/Puls-180-PC-Tagebuch-5.11.zip)
 
 PC-Werte können als JSON-Datei gespeichert und bei direktem Kopieren per USB übertragen werden. Über „PC-Datei senden an …“ lässt sich die Datei auch an eine gewählte App weitergeben; danach wird sie am PC importiert. Bereits vorhandene, im PC ausgeblendete Werte werden nur mit ausdrücklichem Haken wieder angezeigt.
 
