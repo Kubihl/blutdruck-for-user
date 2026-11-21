@@ -1,5 +1,5 @@
-# Quellstand App 5.20 / PC-Tagebuch 5.12
+# Quellstand App 5.24 / PC-Tagebuch 5.13
 
-Android: build-app.ps1 benötigt Android SDK 36, JDK 17 und den privaten Signaturschlüssel außerhalb dieses Repositories. Vor dem Build das veröffentlichte Puls-180-PC-Tagebuch-5.12.zip nach android/res/raw/pc_tagebuch.zip kopieren. Das Buildskript enthält die lokalen Werkzeugpfade des Projekts, keine Passwörter oder Schlüssel.
+Android: SDK 36, JDK 17, privater Signaturschlüssel außerhalb dieses Repositories. build-app.ps1 enthält lokale Pfade, keine privaten Schlüssel oder Passwörter. Das aktuelle veröffentlichte PC-ZIP liegt identisch in android/res/raw/pc_tagebuch.zip.
 
-PC: Das veröffentlichte PC-Paket enthält die passende Python-Laufzeit. Quellcode und Tests liegen unter pc. Zum Prüfen PYTHONPATH auf pc/app setzen und mit der mitgelieferten Laufzeit `python -m unittest discover -s pc/tests -q` ausführen. Messdaten liegen außerhalb des Programms im Windows-Benutzerprofil.
+PC: Python-Laufzeit aus dem veröffentlichten ZIP verwenden. PYTHONPATH auf pc/app setzen, dann `python -m unittest discover -s pc/tests -v`. 19 Prüfungen bestanden. Persönliche Daten werden außerhalb des Programms gespeichert. Wiederherstellung prüft und ersetzt nach Bestätigung in einer Transaktion; davor konsistente SQLite-Vorsicherung. Tests verwenden getrennte temporäre Datenbanken.

@@ -19,9 +19,9 @@ if ($LASTEXITCODE -ne 0) {throw 'aapt failed'}
 if ($LASTEXITCODE -ne 0) {throw 'dex packaging failed'}
 & "$base/sdk/build-tools/36.0.0/zipalign.exe" -f 4 "$p/build/current-unsigned.apk" "$p/build/current-aligned.apk"
 if ($LASTEXITCODE -ne 0) {throw 'align failed'}
-& "$base/sdk/build-tools/36.0.0/apksigner.bat" sign --ks "G:/Projekt Puls 180/Blutdruck Projekt/Schluesselverwaltung/verkauf.keystore" --ks-pass "file:G:/Projekt Puls 180/Blutdruck Projekt/Schluesselverwaltung/signatur-passwort.txt" --out "$p/Puls-180-5.20.apk" "$p/build/current-aligned.apk"
+& "$base/sdk/build-tools/36.0.0/apksigner.bat" sign --ks "G:/Projekt Puls 180/Blutdruck Projekt/Schluesselverwaltung/verkauf.keystore" --ks-pass "file:G:/Projekt Puls 180/Blutdruck Projekt/Schluesselverwaltung/signatur-passwort.txt" --out "$p/Puls-180-5.24.apk" "$p/build/current-aligned.apk"
 if ($LASTEXITCODE -ne 0) {throw 'sign failed'}
-& "$base/sdk/build-tools/36.0.0/apksigner.bat" verify --verbose "$p/Puls-180-5.20.apk"
+& "$base/sdk/build-tools/36.0.0/apksigner.bat" verify --verbose "$p/Puls-180-5.24.apk"
 if ($LASTEXITCODE -ne 0) {throw 'verify failed'}
 
 

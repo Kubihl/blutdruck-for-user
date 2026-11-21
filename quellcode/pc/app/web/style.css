@@ -29,3 +29,32 @@ body{background:#f1f5fa;color:#14263f}input,textarea{box-sizing:border-box;width
 
 .active-user-profile{display:flex;align-items:center;gap:10px}.active-user-profile>.pc-profile{position:relative;margin:0;padding:5px 10px;flex-shrink:0}.active-user-profile>.pc-profile>summary{white-space:nowrap}.pc-profile-panel{position:absolute;top:calc(100% + 6px);right:0;z-index:1000;width:340px;max-width:calc(100vw - 40px);max-height:65vh;overflow:auto;padding:10px 14px;border:1px solid #7db7ee;border-radius:8px;background:#102f50;box-shadow:0 6px 18px #0005}.pc-profile-panel table{width:100%}
 .active-user-profile>.pc-profile,.pc-profile-panel{border-color:#ed7777;border-width:1px}
+
+/* Messwerttext mit der Maus markieren und kopieren. */
+.measure .values,.measure .values time,.measure .values .pressure,.measure .values .pulse{user-select:text;-webkit-user-select:text;cursor:text;}
+
+/* Karten bleiben beim Markieren stehen; kompaktere Messwertschrift. */
+.diary .measure{cursor:default;-webkit-user-drag:none;user-select:text;-webkit-user-select:text;}
+.diary .measure .pressure{font-size:24px;}
+.diary .measure.latest .pressure{font-size:28px;}
+.diary .measure .pulse,.diary .measure.latest .pulse{font-size:17px;}
+.diary .measure time{font-size:14px;}
+
+/* Blutdruck und Puls in einer gemeinsamen Zeile. */
+.diary .measure .values{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:26px;row-gap:4px;}
+.diary .measure .values>time{flex-basis:100%;}
+.diary .measure .values>.pressure,.diary .measure.latest .values>.pressure{font-size:24px;margin-top:0;white-space:nowrap;}
+.diary .measure .values>.pulse,.diary .measure.latest .values>.pulse{font-size:20px;white-space:nowrap;}
+.diary .measure .values>.note{flex-basis:100%;min-width:0;}
+
+/* Kompakte Messwertkarten. */
+.measure,.diary .measure{padding:10px 14px;margin:8px 0;gap:14px;}
+.measure .values,.diary .measure .values{display:flex!important;flex-wrap:wrap;align-items:baseline;column-gap:24px;row-gap:2px;}
+.measure .values>time{flex:0 0 100%;font-size:13px;}
+.measure .values>.pressure,.measure.latest .values>.pressure{font-size:24px!important;line-height:1.25;margin:0;white-space:nowrap;}
+.measure .values>.pulse,.measure.latest .values>.pulse{font-size:17px!important;line-height:1.25;white-space:nowrap;}
+.measure .values>.note{flex:0 0 100%;margin-top:6px;gap:8px;}
+.measure .note input,.measure .note textarea{font-size:16px!important;padding:6px 9px!important;line-height:1.3;min-height:34px;height:34px;box-sizing:border-box;}
+.measure .note button{font-size:13px;padding:6px 10px;min-height:34px;}
+
+.measure .values>.pulse,.measure.latest .values>.pulse,.diary .measure .values>.pulse,.diary .measure.latest .values>.pulse{font-size:21px!important;font-weight:600;}

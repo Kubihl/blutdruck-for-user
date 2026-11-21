@@ -38,7 +38,7 @@ class Handler(BaseHTTPRequestHandler):
  def validhost(self):return self.headers.get('Host') in [f'127.0.0.1:{PORT}',f'localhost:{PORT}']
  def do_GET(self):
   if not self.validhost():return self.reply({'error':'Ungültiger Zugriff'},403)
-  if self.path=='/api/identity':return self.reply({'app':'blutdruck-sales-desktop','version':'5.12'})
+  if self.path=='/api/identity':return self.reply({'app':'blutdruck-sales-desktop','version':'5.13'})
   if self.path=='/api/pin-status':
    from pc_lock import state
    return self.reply(state(self.headers))
@@ -46,13 +46,13 @@ class Handler(BaseHTTPRequestHandler):
   if (self.path=='/pair' or self.path.startswith('/api/')) and not allowed(self.headers):return self.reply({'error':'PC-Tagebuch gesperrt'},423)
   if self.path=='/api/pc-update':
    try:
-    request=urllib.request.Request('https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/pc-version.json?ts='+str(int(datetime.datetime.now().timestamp())),headers={'User-Agent':'Puls-180-PC-Tagebuch/5.12'})
+    request=urllib.request.Request('https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/pc-version.json?ts='+str(int(datetime.datetime.now().timestamp())),headers={'User-Agent':'Puls-180-PC-Tagebuch/5.13'})
     with urllib.request.urlopen(request,timeout=6) as response:return self.reply(json.load(response))
    except Exception:
     try:
-     request=urllib.request.Request('https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/version.json?ts='+str(int(datetime.datetime.now().timestamp())),headers={'User-Agent':'Puls-180-PC-Tagebuch/5.12'})
+     request=urllib.request.Request('https://raw.githubusercontent.com/Kubihl/blutdruck-for-user/main/version.json?ts='+str(int(datetime.datetime.now().timestamp())),headers={'User-Agent':'Puls-180-PC-Tagebuch/5.13'})
      with urllib.request.urlopen(request,timeout=6) as response:data=json.load(response)
-     return self.reply({'versionCode':data.get('pcDiaryVersionCode',60),'versionName':data.get('pcDiaryVersionName','5.12'),'zipUrl':data.get('pcDiaryUrl','')})
+     return self.reply({'versionCode':data.get('pcDiaryVersionCode',60),'versionName':data.get('pcDiaryVersionName','5.13'),'zipUrl':data.get('pcDiaryUrl','')})
     except Exception:return self.reply({'error':'Internetverbindung prüfen.'},503)
   if self.path=='/api/sync-status':return self.reply({'connected':False,'mode':'file'})
   if self.path=='/api/profiles':
@@ -75,7 +75,7 @@ class Handler(BaseHTTPRequestHandler):
      schema(c);data['monthAssignments']=[dict(r) for r in c.execute('SELECT * FROM month_assignment')]
      data['monthFiles']=[{**dict(r),'body':base64.b64encode(r['body']).decode()} for r in c.execute('SELECT * FROM month_files')]
    return self.reply(data,download=self.path=='/api/backup')
-  names={'/':'index.html','/app.js':'app.js','/style.css':'style.css','/datenschutz.html':'datenschutz.html','/anleitung.html':'anleitung.html','/anleitung.pdf':'anleitung.pdf','/vergleich.html':'vergleich.html','/vergleich.js':'vergleich.js','/import.html':'import.html','/import.js':'import.js','/benutzer.html':'benutzer.html','/benutzer.js':'benutzer.js','/front-user.js':'front-user.js','/status.js':'status.js'}
+  names={'/':'index.html','/app.js':'app.js','/style.css':'style.css','/datenschutz.html':'datenschutz.html','/anleitung.html':'anleitung.html','/anleitung.pdf':'anleitung.pdf','/vergleich.html':'vergleich.html','/vergleich.js':'vergleich.js','/import.html':'import.html','/import.js':'import.js','/benutzer.html':'benutzer.html','/benutzer.js':'benutzer.js','/front-user.js':'front-user.js','/status.js':'status.js','/sicherung.html':'sicherung.html','/sicherung.js':'sicherung.js'}
   if self.path not in names:return self.reply({'error':'Nicht gefunden'},404)
   file=ROOT/'web'/names[self.path];kind='text/html' if file.suffix=='.html' else 'text/css' if file.suffix=='.css' else 'application/pdf' if file.suffix=='.pdf' else 'text/javascript'
   self.reply(file.read_bytes(),kind=kind+'; charset=utf-8')
@@ -89,6 +89,9 @@ class Handler(BaseHTTPRequestHandler):
    return handle(self,self.path)
   from pc_lock import allowed
   if not allowed(self.headers):return self.reply({'error':'PC-Tagebuch gesperrt'},423)
+  if self.path=='/api/backup-restore':
+   from backup_restore import handle
+   return handle(self,connection,DB)
   if self.path=='/api/profile-data':
    from profile_edit import handle
    return handle(self,connection)

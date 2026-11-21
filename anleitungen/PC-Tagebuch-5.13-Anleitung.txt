@@ -1,0 +1,26 @@
+PULS 180 - PC-TAGEBUCH 5.13
+Stand: 21.11.2026
+
+1. Start und Update
+Das ZIP vollständig entpacken. Start-Web-App.cmd öffnet die lokale Browserseite http://127.0.0.1:18775/. Dies ist die Browser-Ausgabe, kein natives Windows-Tagebuch. Für Messwertübertragung wird kein WLAN-/QR-Abgleich verwendet. Vor einem Update im Menü eine Datensicherung erstellen. Nur eine PC-Ausgabe gleichzeitig starten; das Schließen des Browserfensters beendet den Hintergrundserver nicht. Vor dem Versionswechsel den bisherigen Server beenden, etwa durch Abmelden von Windows. Den persönlichen Datenordner nicht löschen. Nach dem Start bei alter Darstellung Strg+F5 drücken.
+
+2. Vier Benutzer und Profile
+Oben den aktiven Benutzer wählen. Unter Benutzer bearbeiten die vier Namen getrennt festlegen; beim Handyimport muss der PC-Name zum exportierten Namen passen. „Profil“ neben der Benutzerauswahl zeigt Größe, Gewicht, Datum und Gewichtsverlauf. Auf der Benutzerseite Profil öffnen, Angaben ändern und speichern. Die Angaben gehören nur zur gewählten Person. Änderungen am PC werden nicht automatisch ans Handy übertragen.
+
+3. Handydatei importieren
+Auf dem Handy die richtige Person wählen. Menü > Export & Sicherung > Messwerte exportieren > PC-Datei fürs Tagebuch (JSON) öffnen. Speichern oder Senden wählen, anschließend alle oder markierte Werte. Datei zum PC übertragen. Im PC-Tagebuch oben Handydatei importieren öffnen, Datei und Zielperson wählen, Datei prüfen und Vorschau lesen. Erst die Bestätigung übernimmt Werte und vorhandene Profilangaben. Doppelte Kennungen werden übersprungen. Ausgeblendete vorhandene Werte bleiben verborgen, außer du wählst ausdrücklich das Wiederanzeigen. Kein automatischer Abgleich: für neue Werte eine neue Datei importieren. Berichte und vollständige PC-Sicherungen gehören nicht in diesen Import.
+
+4. Messliste, Notizen und Auswahl
+Aktualisieren lädt die gespeicherten Werte. Datum und Tageszeit stehen über Blutdruck und Puls; die Notiz darunter. Text lässt sich mit der Maus markieren und mit Strg+C kopieren. Die Karten werden dabei nicht mitgezogen. Messungen mit den Kästchen auswählen; Alle markieren wählt die sichtbaren Messungen. Notiz speichern wird erst aktiv, wenn der Text geändert ist. Nach dem Speichern wird der Knopf wieder inaktiv. Ausgeblendete Einträge können im Menü wieder angezeigt werden; das ist keine Wiederherstellung einer Sicherungsdatei.
+
+5. Monate, Vergleich und Export
+Kalender & Ordner zeigt Monatsübersichten und Mittelwerte; Anhänge zählen nicht als Messungen. Vergleich stellt die Benutzer getrennt dar. Auswahl bearbeiten bietet Speichern, Versenden, Ausschneiden oder Löschen für markierte Messungen. Ausschneiden blendet erst nach erfolgreichem Speichern aus. Datei senden an … bietet je nach Auswahl Messlisten oder Monatsdateien an. Im Dateidialog kannst du speichern, ein Programm öffnen oder eine Datei an eine gewählte App übergeben. Den tatsächlichen Versand bestätigst du selbst im Zielprogramm.
+
+6. Datensicherung erstellen
+Im Menü Datensicherung erstellen wählen. Der Browser speichert Blutdruck-Sicherung.json bzw. fragt nach einem Speicherort. Die Datei enthält Messungen aller vier Benutzer einschließlich ausgeblendeter Werte und Notizen, Profilangaben und Gewichtsverläufe sowie Monatszuordnungen und angehängte Monatsdateien. Sie ist zum Wiederherstellen gedacht. PDF ist zum Lesen und Drucken; Excel/CSV sind zum Auswerten. Die Sicherung enthält persönliche Daten im Klartext: an einem privaten Ort aufbewahren. PIN, Freischaltung und Programmeinstellungen gehören nicht zu dieser Datensicherung.
+
+7. Datensicherung wiederherstellen
+Im Menü Datensicherung wiederherstellen wählen. Eine vollständige JSON-Sicherung dieses PC-Tagebuchs auswählen und Datei prüfen anklicken. Die Vorschau zeigt Messungszahl, ausgeblendete Werte, Monatsdateien, Benutzernamen und den bisherigen Umfang. Bis hier werden keine Messdaten geändert. Die Wiederherstellung ersetzt den bisherigen Datenbestand aller vier Benutzer durch die Datei; sie fügt nicht nur fehlende Werte hinzu. Nur nach Prüfung den Bestätigungshaken setzen und Jetzt wiederherstellen wählen. Vorher legt das Programm automatisch eine separate SQLite-Sicherung des bisherigen Standes unter dem Datenordner in Sicherungen-vor-Wiederherstellung an. Der vollständige Pfad erscheint nach Erfolg. Diese Vorsicherung sicher aufbewahren; sie ist keine JSON-Importdatei. Bei einem Schreibfehler wird die Änderung zurückgenommen. Wenn sich Daten nach der Vorschau ändern oder zehn Minuten verstreichen, Datei erneut prüfen. Danach Zurück zum Tagebuch wählen.
+
+8. Hilfe und Aufbewahrung
+Handy-Messwertdatei: importiert Werte einer Person. PC-Datensicherung: ersetzt nach Bestätigung den vollständigen PC-Datenbestand. Handy-Sicherung: gehört zur Handy-App. Diese drei JSON-Arten nicht verwechseln. Eine ungültige Datei wird abgewiesen. Bei leerer Seite oder alter Darstellung Strg+F5 versuchen. Persönliche Messdaten liegen unter %LOCALAPPDATA%\BlutdruckTagebuchVerkauf\daten, getrennt vom Programm. Den Ordner und Sicherungen nicht unbedacht löschen oder weitergeben. Kontakt: Kerstin Kubernat, puls180@t-online.de. Das Tagebuch dokumentiert Messwerte und ersetzt keine ärztliche Beratung.

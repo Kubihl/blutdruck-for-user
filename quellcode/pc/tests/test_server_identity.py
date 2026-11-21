@@ -14,7 +14,7 @@ class ServerIdentityTest(unittest.TestCase):
     def test_launcher_identifies_locked_diary(self):
         with patch('pc_lock.allowed', return_value=False):
             self.assertEqual(self.request('/api/identity'), (200, {
-                'app': 'blutdruck-sales-desktop', 'version': '5.12'}))
+                'app': 'blutdruck-sales-desktop', 'version': '5.13'}))
 
     def test_profile_remains_protected_when_locked(self):
         with patch('pc_lock.allowed', return_value=False):

@@ -1,0 +1,20 @@
+ANLEITUNG - PULS 180 ANDROID 5.24
+Stand: 21.11.2026
+
+1. Start und Messwerte
+Die App als Update installieren; nicht vorher deinstallieren. Oben den aktiven Benutzer wählen. „Werte per Hand“ öffnet die manuelle Eingabe. „HC-Werte laden“ liest freigegebene Werte aus Health Connect (ab Android 14). Eine passende Geräte-App muss sie dort bereitstellen. Geeignete Bluetooth-Geräte unter Menü > Einstellungen > Geräte & Empfang hinzufügen. Puls ist bei der Handeingabe optional. Die App selbst misst keinen Blutdruck.
+
+2. Messliste und Monatsübersicht
+Kurzes Antippen öffnet die Aktionen zur Messung. Gedrückt halten und loslassen markiert einen Eintrag. Nach dem Gedrückthalten nach links ziehen und loslassen öffnet die Löschbestätigung. Löschen blendet den Eintrag aus; Menü > Messwerte > Gelöschte Einträge wiederherstellen zeigt ausgeblendete Werte wieder an. „Alle markieren“ wählt die sichtbaren Werte. Die Monatsübersicht bleibt direkt auf der Hauptseite erreichbar. Handy und PC verwalten ausgeblendete Werte unabhängig voneinander.
+
+3. Menü und Einstellungen
+Das Hauptmenü hat fünf Bereiche: Messwerte, Benutzer & Profil, Export & Sicherung, Einstellungen sowie Hilfe & App. Unter Benutzer & Profil die Person wechseln oder Größe, Gewicht und Gewichtsdatum bearbeiten. Einstellungen enthält nur Geräte & Empfang, Darstellung, Blutdruck-Skala und App-Sperre. Dort findest du Bluetooth, Health Connect und Sprachansage, Schriftgröße und Hell/Dunkel/System sowie Skala und PIN/Biometrie. Anleitung, Datenschutz, Freischaltung und Updates stehen unter Hilfe & App.
+
+4. Export und Datei fürs PC-Tagebuch
+Menü > Export & Sicherung > Messwerte exportieren: zuerst PDF, Excel, CSV oder „PC-Datei fürs Tagebuch (JSON)“ wählen; Arztbericht ist ebenfalls erreichbar. Danach speichern oder senden; Dokumente lassen sich auch drucken. Bei der PC-Datei alle Werte der aktiven Person oder markierte Werte wählen. Für markierte Werte diese vorher in der Messliste auswählen. Die JSON-Datei per USB oder über eine geeignete App zum PC übertragen. Am PC den passenden Benutzer wählen, „Handydatei importieren“ öffnen, Datei prüfen und Import bestätigen. PC-Name und Handyname müssen zusammenpassen. PDF/Excel/CSV sind Berichte, keine PC-Importdateien. Der neue Import überträgt spätere Änderungen oder Löschungen nicht automatisch.
+
+5. Sicherung und PC-Programm
+Menü > Export & Sicherung enthält außerdem Datensicherung sowie PC-Tagebuch & Vorlagen. Dort die Handy-Sicherung erstellen oder wiederherstellen und das PC-Paket bzw. die Excel-Vorlage speichern. Die Handy-Sicherung, die PC-Messwertdatei und die vollständige PC-Datensicherung sind unterschiedliche Dateien. Zum PC-Tagebuch das ZIP vollständig entpacken und Start-Web-App.cmd öffnen. Das PC-Tagebuch verwendet eine lokale Browserseite; automatischer WLAN-/QR-Abgleich ist deaktiviert. Die PC-Anleitung erklärt dessen getrennte Sicherung und Wiederherstellung.
+
+6. Hilfe, Freischaltung und Kontakt
+Unter Hilfe & App findest du Anleitung, medizinischen Hinweis, Datenschutz, Freischaltung und Updates. Beim ersten Öffnen beginnt eine vierzehntägige Testzeit. Für dauerhafte Nutzung wird ein passender gerätegebundener Kaufschlüssel benötigt. Messdaten werden beim Ablauf nicht automatisch gelöscht. Puls 180 dokumentiert Werte; Farben, Skalen und Mittelwerte sind keine Diagnose und keine Therapieempfehlung. Bei Beschwerden oder auffälligen Werten medizinisches Fachpersonal kontaktieren. Kontakt: Kerstin Kubernat, puls180@t-online.de. Privates Hobbyprojekt; Unterstützung nach verfügbarer Zeit.
