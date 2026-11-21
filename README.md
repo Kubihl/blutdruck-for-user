@@ -26,7 +26,7 @@ Vor einem Update eine Datensicherung erstellen und den bisherigen Hintergrundser
 
 19 automatisierte PC-Prüfungen bestanden, darunter Wiederherstellung und Vorgängersicherung mit synthetischen Daten, Rücknahme bei Fehlern und Schutz vor ungültigen Dateien. Android-Build und APK-v3-Signatur geprüft. PDF visuell geprüft; eingebettetes und separates PC-ZIP sind bytegleich. Frühere Menüänderungen wurden auf dem Testhandy vom Benutzer bestätigt. Ein neuer durchgängiger Gerätetest von 5.24 mit Import und Wiederherstellung echter Daten ist noch offen.
 
-Quellcode und Tests: [quellcode](quellcode/README.md). Bestehende Git-Historie bleibt erhalten. Ältere Downloads sind keine aktuelle Empfehlung. Werbemotive verwenden Beispielwerte; die Bilder sind keine neuen Originalaufnahmen der aktuellen Version. Keine neue Google-Play-Veröffentlichung erfolgt.
+Quellcode und Tests: [quellcode](quellcode/README.md). Bestehende Git-Historie bleibt erhalten. Ältere Downloads wurden aus dem aktuellen Dateibaum entfernt und lokal archiviert; die Git-Historie bleibt erhalten. Werbemotive verwenden Beispielwerte; die Bilder sind keine neuen Originalaufnahmen der aktuellen Version. Keine neue Google-Play-Veröffentlichung erfolgt.
 
 Android 10 und neuer; Health Connect in der App ab Android 14. Bluetooth benötigt geeignete Geräte. Beim ersten Öffnen beginnt die vierzehntägige Testzeit; für dauerhafte Nutzung ist ein passender gerätegebundener Kaufschlüssel nötig.
 
